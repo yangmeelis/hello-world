@@ -1,0 +1,82 @@
+.user-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.add-user-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.add-user-form input {
+  flex: 1;
+  min-width: 150px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.add-user-form button {
+  padding: 0.5rem 1.5rem;
+  background-color: #4fa8c5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-user-form button:hover {
+  background-color: #3a8aa8;
+}
+
+.users-table {
+  margin-top: 1rem;
+}
+
+.users-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.users-table th,
+.users-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-table th {
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 0.25rem 0.75rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background-color: #ff5252;
+}
+
+.error {
+  color: #ff6b6b;
+  padding: 1rem;
+  background-color: #ffe0e0;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
